@@ -1,0 +1,62 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+pycache/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Bot/session secrets
+sessions/
+tokens/
+cookies/
+secrets/
+
+# Browser automation data
+playwright/.cache/
+ms-playwright/
+browser_data/
+chrome_data/
+
+# OS files
+.DS_Store
+Thumbs.db
